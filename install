@@ -1,0 +1,52 @@
+#!/bin/bash
+
+ln -sf $PWD/alacritty.yml ~/.config/alacritty/alacritty.yml
+ls -l ~/.config/alacritty/alacritty.yml
+
+ln -sf $PWD/starship.toml ~/.config/starship.toml
+ls -l ~/.config/starship.toml
+
+ln -sf $PWD/shiva ~/.config/awesome/themes/shiva
+ls -l ~/.config/awesome/themes/shiva
+
+ln -sf $PWD/rofi.config ~/.config/rofi/config
+ls -l ~/.config/rofi/config
+
+ln -sf $PWD/redshift.conf ~/.config/redshist.conf
+ls -l ~/.config/redshist.conf
+
+ln -sf $PWD/rc.lua ~/.config/awesome/rc.lua
+ls -l ~/.config/awesome/rc.lua
+
+ln -sf $PWD/qpdfview.conf ~/.config/qpdfview/qpdfview.conf
+ls -l ~/.config/qpdfview/qpdfview.conf
+
+ln -sf $PWD/flameshot.ini ~/.config/flameshot/flameshot.ini
+ls -l ~/.config/flameshot/flameshot.ini
+
+ln -sf $PWD/Preferences.sublime-settings ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+ls -l ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+
+ln -sf $PWD/Default\ \(Linux\).sublime-keymap ~/.config/sublime-text-3/Packages/User/Default\ \(Linux\).sublime-keymap
+ls -l ~/.config/sublime-text-3/Packages/User/Default\ \(Linux\).sublime-keymap
+
+ln -sf $PWD/audacious.config ~/.config/audacious/config
+ls -l ~/.config/audacious/config
+
+ln -sf $PWD/aliases.ipy ~/.ipython/profile_samvega/startup/aliases.ipy
+ls -l ~/.ipython/profile_samvega/startup/aliases.ipy
+
+ln -sf $PWD/kakrc ~/.config/kak/kakrc
+ls -l ~/.config/kak/kakrc
+
+ln -sf $PWD/newsboat.config ~/.config/newsboat/config
+ls -l ~/.config/newsboat/config
+
+ln -sf $PWD/picom.conf ~/.config/picom.conf
+ls -l ~/.config/picom.conf
+
+ln -sf $PWD/zshrc ~/.zshrc
+ls -l ~/.zshrc
+
+ln -sf $PWD/bashrc ~/.bashrc
+ls -l ~/.bashrc
