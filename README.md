@@ -1,2 +1,2 @@
-# my DotFiles - samvega
+# My dotfiles - SamVega
 
