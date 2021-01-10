@@ -1,0 +1,12 @@
+[character]
+success_symbol = "[└❯](green)"
+
+[python]
+symbol = '🕉  '
+# ⚕ ☸ ☯
+
+[nodejs]
+symbol = '✡ ⚧ 🛼 '
+
+[lua]
+symbol = '☯ '

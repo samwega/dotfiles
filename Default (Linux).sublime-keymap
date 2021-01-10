@@ -1,0 +1,43 @@
+[
+	{ "keys": ["alt+c"], "command": "cancel_build"},
+	{ "keys": ["alt+n"], "command": "toggle_menu" },
+	{ "keys": ["ctrl+m"], "command": "toggle_distraction_free" },
+
+	{
+		"keys": ["alt+1"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1]]
+		}
+	},
+
+	{
+		"keys": ["alt+2"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
+
+	{
+		"keys": ["alt+3"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 0.5, 1.0],
+			"cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+		}
+	},
+
+	{ "keys": ["alt+`"], "command": "toggle_side_bar" },
+
+	{ "keys": ["alt+m"], "command": "toggle_minimap" },
+
+]

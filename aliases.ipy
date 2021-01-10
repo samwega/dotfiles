@@ -1,0 +1,12 @@
+%alias kak kak
+%alias lsd lsd
+%alias ranger ranger
+%alias which which
+%alias yay yay
+%alias news newsboat -r
+%alias acid lsd -a
+%alias hof ls -al
+%alias q rofi -show calc -modi calc -no-show-match -no-sort
+%alias fm ranger
+%alias free free -m
+%alias w curl wttr.in/roma
