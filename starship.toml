@@ -3,10 +3,10 @@ success_symbol = "[└❯](green)"
 
 [python]
 symbol = '🕉  '
-# ⚕ ☸ ☯
+# ⚕ ☸
 
 [nodejs]
-symbol = '✡ ⚧ 🛼 '
+symbol = '🛼 '
 
 [lua]
 symbol = '☯ '
