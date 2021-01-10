@@ -1,4 +1,3 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # # Initialization code that may require console input (password prompts, [y/n]
 # # confirmations, etc.) must go above this block; everything else may go below.
 
@@ -64,9 +63,6 @@ alias df='df -h'                                                # Human-readable
 alias free='free -m'                                            # Show sizes in MB
 alias gitu='git add . && git commit && git push'
 
-alias c='clear'
-alias fm='ranger'
-alias v='vifm'
 
 # Theming section  
 autoload -U compinit colors zcalc
@@ -217,17 +213,17 @@ zstyle :compinstall filename '/home/samvega/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-# Lines added by Sam Vega
+
+# Lines added by samvega
 #neofetch
-# figlet '`samvega.'
-#chafa ~/Pictures/SamVega.png
+#figlet '`samvega.'
+#chafa ~/Pictures/samvega.png
 
 export EDITOR="kak"
 export VISUAL="subl"
-# export BROWSER="lynx"
-# source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
 eval "$(starship init zsh)"
 
+# User aliases
 alias w='curl wttr.in/roma'
 alias ipy='ipython'
 alias py='ipython --profile=samvega'
@@ -238,7 +234,8 @@ alias acid='lsd -a'
 alias hof='ls -al'
 alias c='clear'
 alias s='BROWSER=lynx ddgr -x -n 4'
-alias f='ddgr -x -n 4'
 alias q='rofi -show calc -modi calc -no-show-match -no-sort'
 alias brighthdmi='xrandr --output HDMI-A-1 --brightness 1'
-################################
+alias fm='ranger'
+alias f='fff'
+
