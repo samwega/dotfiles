@@ -238,5 +238,6 @@ alias q='rofi -show calc -modi calc -no-show-match -no-sort'
 alias brighthdmi='xrandr --output HDMI-A-1 --brightness 1'
 alias fm='ranger'
 alias f='fff'
+alias d='cd /home/samvega/Repos/gitlab.com/samwega/dotfiles'
 
 bindkey -v
