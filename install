@@ -50,3 +50,6 @@ ls -l ~/.zshrc
 
 ln -sf $PWD/bashrc ~/.bashrc
 ls -l ~/.bashrc
+
+ln -sf $PWD/tmux.conf ~/.tmux.conf
+ls -l ~/.tmux.conf
