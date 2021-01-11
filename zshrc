@@ -239,3 +239,4 @@ alias brighthdmi='xrandr --output HDMI-A-1 --brightness 1'
 alias fm='ranger'
 alias f='fff'
 
+bindkey -v
