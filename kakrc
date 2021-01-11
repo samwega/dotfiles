@@ -185,7 +185,10 @@ set-option global tabstop 4
 set-option global aligntab true
 map global normal , <space>
 map global normal <space> ,
-map global user <z> :write-quit<ret>
+
+#User mappings
+map global user <z> :write-quit<ret> -docstring "write-quit"
+map global user <space> :buffer-next<ret> -docstring "buffer-next"
 
 # Ctrl for moving objects in insert mode
 map global insert <c-left>    '<a-;>b<a-;>;'
@@ -208,5 +211,5 @@ select-or-add-cursor %{
         execute-keys -save-regs '' "_*<s-n>"
     } catch nop
 }
-map global normal '<c-d>' ': select-or-add-cursor<ret>' -docstring "add cursor on current word, and jump to the next match" 
+map global normal '<c-d>' ': select-or-add-cursor<ret>' -docstring "add cursor on current word, and jump to the next match"
 
