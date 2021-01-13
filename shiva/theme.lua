@@ -12,18 +12,22 @@ theme.wallpaper = theme.confdir .. "/Shivasky.jpg"
 -- }}}
 
 -- {{{ Styles
---theme.font      = "monospace"
---theme.font      = "Bitstream Vera Sans Mono"
---theme.font      = "DejaVu Sans Mono 13"
-theme.font      = "Ubuntu Mono 12"
+-- theme.font      = "monospace 11"
+-- theme.font      = "Bitstream Vera Sans Mono"
+-- theme.font      = "DejaVu Sans Mono 12"
+theme.font      = "Ubuntu Mono Bold 12"
+-- theme.font      = "Fira Font Bold 11"
 
 -- {{{ Colors
 theme.fg_normal  = "#898445"
 theme.fg_focus   = "#a18c4f"
 theme.fg_urgent  = "#ea6868"
-theme.bg_normal  = "#171F48AA"
-theme.bg_focus   = "#17204393"
-theme.bg_urgent  = "#2E497B99"
+-- theme.bg_normal  = "#171F48AA"
+-- theme.bg_focus   = "#17204393"
+-- theme.bg_urgent  = "#2E497B99"
+theme.bg_normal  = "#171F48"
+theme.bg_focus   = "#172043"
+theme.bg_urgent  = "#2E497B"
 theme.bg_systray = theme.bg_normal
 -- }}}
 
@@ -37,7 +41,7 @@ theme.border_marked = "#d4af37"
 
 -- {{{ Titlebars
 theme.titlebar_bg_focus  = "#ad8109"
-theme.titlebar_bg_normal = "#574103"
+theme.titlebar_bg_normal = "#161834"
 -- }}}
 
 
@@ -51,7 +55,7 @@ theme.mouse_finder_color = "#CC9393"
 -- menu_[bg|fg]_[normal|focus]
 -- menu_[border_color|border_width]
 theme.menu_height = dpi(22)
-theme.menu_width  = dpi(142)
+theme.menu_width  = dpi(148)
 -- theme.menu_submenu_width = dpi(100)
 -- }}}
 
@@ -63,8 +67,8 @@ theme.taglist_fg_focus    = "#8C5A13"
 theme.taglist_fg_occupied = "#c29721"
 theme.taglist_fg_urgent   = "#ED7572"
 theme.taglist_fg_empty    = "#c29721"
-theme.taglist_spacing     = 5
-theme.taglist_font        = "Ubuntu Mono 22"
+theme.taglist_spacing     = 4
+theme.taglist_font        = "Fira Font 21"
 -- }}}
 
 -- {{{ Misc
