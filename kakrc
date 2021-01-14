@@ -177,7 +177,9 @@ hook global NormalKey '[ydc]' %{
  
 source /home/samvega/.config/kak/out-of-the-box/oob.kak
 source ~/.config/kak/sudo-write.kak
+
 source ~/.config/kak/wiki.kak
+wiki-setup %sh{ echo $HOME/wiki }
 
 map global normal '#' :comment-line<ret>
 
