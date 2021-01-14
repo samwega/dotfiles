@@ -21,6 +21,7 @@ SETUVAR _fish_abbr_py:ipython\x20\x2d\x2dprofile\x3dsamvega
 SETUVAR _fish_abbr_q:rofi\x20\x2dshow\x20calc\x20\x2dmodi\x20calc\x20\x2dno\x2dshow\x2dmatch\x20\x2dno\x2dsort
 SETUVAR _fish_abbr_rc_2E_lua:kak\x20/home/samvega/\x2econfig/awesome/rc\x2elua
 SETUVAR _fish_abbr_tr:tree\x20\x2dhAC\x20\x2d\x2ddirsfirst
+SETUVAR _fish_abbr_wh:whereis
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
