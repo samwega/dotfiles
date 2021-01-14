@@ -9,7 +9,6 @@ SETUVAR _fish_abbr_df:df\x20\x2dh
 SETUVAR _fish_abbr_f:fff
 SETUVAR _fish_abbr_fm:ranger
 SETUVAR _fish_abbr_gc:git\x20commit\x20\x2da\x20\x2dm\x20\x22\x2d\x22
-SETUVAR _fish_abbr_gp:git\x20push
 SETUVAR _fish_abbr_gs:git\x20status
 SETUVAR _fish_abbr_hof:lsd\x20\x2dal\x20\x2d\x2dgroup\x2ddirs\x20first
 SETUVAR _fish_abbr_ipy:ipython
@@ -17,6 +16,8 @@ SETUVAR _fish_abbr_k:kak
 SETUVAR _fish_abbr_l:lsd\x20\x2dhA\x20\x2d\x2dgroup\x2ddirs\x20first
 SETUVAR _fish_abbr_ls:lsd\x20\x2dAl\x20\x2d\x2dgroup\x2ddirs\x20first
 SETUVAR _fish_abbr_news:newsboat\x20\x2dr
+SETUVAR _fish_abbr_pull:git\x20pull
+SETUVAR _fish_abbr_push:git\x20push
 SETUVAR _fish_abbr_py:ipython\x20\x2d\x2dprofile\x3dsamvega
 SETUVAR _fish_abbr_q:rofi\x20\x2dshow\x20calc\x20\x2dmodi\x20calc\x20\x2dno\x2dshow\x2dmatch\x20\x2dno\x2dsort
 SETUVAR _fish_abbr_rc_2E_lua:kak\x20/home/samvega/\x2econfig/awesome/rc\x2elua
