@@ -1,15 +1,16 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
+SETUVAR _fish_abbr_ab:abbr\x20\x2d\x2dshow
 SETUVAR _fish_abbr_bright:xrandr\x20\x2d\x2doutput\x20HDMI\x2dA\x2d1\x20\x2d\x2dbrightness\x201
 SETUVAR _fish_abbr_c:clear
 SETUVAR _fish_abbr_d:cd\x20/home/samvega/Repos/gitlab\x2ecom/samwega/dotfiles
 SETUVAR _fish_abbr_df:df\x20\x2dh
 SETUVAR _fish_abbr_f:fff
 SETUVAR _fish_abbr_fm:ranger
-SETUVAR _fish_abbr_grep:grep\x20\x2d\x2dcolor\x20auto
 SETUVAR _fish_abbr_hof:lsd\x20\x2dal\x20\x2d\x2dgroup\x2ddirs\x20first
 SETUVAR _fish_abbr_ipy:ipython
+SETUVAR _fish_abbr_k:kak
 SETUVAR _fish_abbr_l:lsd\x20\x2dhA\x20\x2d\x2dgroup\x2ddirs\x20first
 SETUVAR _fish_abbr_ls:lsd\x20\x2dAl\x20\x2d\x2dgroup\x2ddirs\x20first
 SETUVAR _fish_abbr_news:newsboat\x20\x2dr
