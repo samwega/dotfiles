@@ -16,11 +16,13 @@ SETUVAR _fish_abbr_k:kak
 SETUVAR _fish_abbr_l:lsd\x20\x2dhA\x20\x2d\x2dgroup\x2ddirs\x20first
 SETUVAR _fish_abbr_ls:lsd\x20\x2dAl\x20\x2d\x2dgroup\x2ddirs\x20first
 SETUVAR _fish_abbr_news:newsboat\x20\x2dr
+SETUVAR _fish_abbr_p:cd\x20/home/samvega/Projects/Python
 SETUVAR _fish_abbr_pull:git\x20pull
 SETUVAR _fish_abbr_push:git\x20push
 SETUVAR _fish_abbr_py:ipython\x20\x2d\x2dprofile\x3dsamvega
 SETUVAR _fish_abbr_q:rofi\x20\x2dshow\x20calc\x20\x2dmodi\x20calc\x20\x2dno\x2dshow\x2dmatch\x20\x2dno\x2dsort
 SETUVAR _fish_abbr_rc_2E_lua:kak\x20/home/samvega/\x2econfig/awesome/rc\x2elua
+SETUVAR _fish_abbr_sc:cd\x20/home/samvega/Repos/gitlab\x2ecom/samwega/scripts
 SETUVAR _fish_abbr_tr:tree\x20\x2dhAC\x20\x2d\x2ddirsfirst
 SETUVAR _fish_abbr_wh:whereis
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
