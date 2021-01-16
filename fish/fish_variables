@@ -16,6 +16,7 @@ SETUVAR _fish_abbr_k:kak
 SETUVAR _fish_abbr_l:lsd\x20\x2dhA\x20\x2d\x2dgroup\x2ddirs\x20first
 SETUVAR _fish_abbr_ls:lsd\x20\x2dAl\x20\x2d\x2dgroup\x2ddirs\x20first
 SETUVAR _fish_abbr_news:newsboat\x20\x2dr
+SETUVAR _fish_abbr_no:cd\x20/home/samvega/Repos/gitlab\x2ecom/samwega/notes
 SETUVAR _fish_abbr_p:cd\x20/home/samvega/Projects/Python
 SETUVAR _fish_abbr_pull:git\x20pull
 SETUVAR _fish_abbr_push:git\x20push
