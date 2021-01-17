@@ -15,12 +15,6 @@ ls -l ~/.config/redshist.conf
 ln -sf $PWD/rc.lua ~/.config/awesome/rc.lua
 ls -l ~/.config/awesome/rc.lua
 
-ln -sf $PWD/qpdfview.conf ~/.config/qpdfview/qpdfview.conf
-ls -l ~/.config/qpdfview/qpdfview.conf
-
-ln -sf $PWD/flameshot.ini ~/.config/flameshot/flameshot.ini
-ls -l ~/.config/flameshot/flameshot.ini
-
 ln -sf $PWD/Preferences.sublime-settings ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
 ls -l ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
 
@@ -58,3 +52,9 @@ ls -l ~/.config/fish
 unlink ~/.config/awesome/themes/shiva
 ln -sf $PWD/shiva ~/.config/awesome/themes/shiva
 ls -l ~/.config/awesome/themes/shiva
+
+# ln -sf $PWD/qpdfview.conf ~/.config/qpdfview/qpdfview.conf
+# ls -l ~/.config/qpdfview/qpdfview.conf
+
+# ln -sf $PWD/flameshot.ini ~/.config/flameshot/flameshot.ini
+# ls -l ~/.config/flameshot/flameshot.ini
