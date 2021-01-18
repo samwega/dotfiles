@@ -143,7 +143,7 @@ colors:
     # The dimmed foreground color is calculated automatically if it is not present.
     # If the bright foreground color is not set, or `draw_bold_text_with_bright_colors`
     # is `false`, the normal foreground color will be used.
-    dim_foreground: '#1b1f28'
+    dim_foreground: '#1848B1'
     bright_foreground: '#3D2627'
 
   # Cursor colors
@@ -197,7 +197,7 @@ colors:
    red:     '#cc7b66'
    green:   '#d8981e'
    yellow:  '#f0c674'
-   blue:    '#3a3faa'
+   blue:    '#3338AF'
    magenta: '#b294bb'
    cyan:    '#803833'
    white:   '#3d2636'
@@ -283,7 +283,7 @@ colors:
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
 # background_opacity: 0.95
-background_opacity: .8
+background_opacity: .85
 
 selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
