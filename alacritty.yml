@@ -89,66 +89,27 @@ scrolling:
 
 # Font configuration
 font:
-  # Normal (roman) font face
   normal:
-    # Font family
-    #
-    # Default:
-    #   - (macOS) Menlo
-    #   - (Linux/BSD) monospace
-    #   - (Windows) Consolas
-    # family: NotoSansMono
+    family: FiraCode
+   # family: NotoSansMono
    # family: monospace
    # family: liberationmono
-    # family: DejaVuSansMono
-    family: FiraCode
+   # family: DejaVuSansMono
    # family: sourcecodevariable
-    # family: sourcecodepro
-    # family: ubuntumono
-
-    # The `style` can be specified to pick a specific face.
+   # family: sourcecodepro
+   # family: ubuntumono
     style: regular
 
-  # Bold font face
   bold:
-    # Font family
-    #
-    # If the bold family is not specified, it will fall back to the
-    # value specified for the normal font.
-    # family: TerminessTTFNerdFont Mono
-    # family: NotoSansMono
-    # family: Hack
-    # family: monospace
-    # family: liberationmono
-    # family: DejaVuSansMono
-    # family: sourcecodepro
-    # family: ubuntumono
     family: FiraCode
-
-    # The `style` can be specified to pick a specific face.
-    # style: Bold
     style: Semibold
 
-  # Italic font face
   italic:
-    # Font family
-    #
-    # If the italic family is not specified, it will fall back to the
-    # value specified for the normal font.
     family: FiraCode
-    # family: NotoSansMono
-
-    # The `style` can be specified to pick a specific face.
     style: Italic
-  # Bold italic font face
-  bold_italic:
-    # Font family
-    #
-    # If the bold italic family is not specified, it will fall back to the
-    # value specified for the normal font.
-    family: FiraCode
 
-    # The `style` can be specified to pick a specific face.
+  bold_italic:
+    family: FiraCode
     style: Bold Italic
 
   # Point size
@@ -167,16 +128,10 @@ font:
   #  x: 0
   #  y: 0
 
-  # Thin stroke font rendering (macOS only)
-  #
-  # Thin strokes are suitable for retina displays, but for non-retina screens
-  # it is recommended to set `use_thin_strokes` to `false`.
-  #use_thin_strokes: true
-
 # If `true`, bold text is drawn using the bright color variants.
 #draw_bold_text_with_bright_colors: false
 
-# Colors (Tomorrow Night)
+# Colors
 colors:
   # Default colors
   primary:
@@ -328,7 +283,7 @@ colors:
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
 # background_opacity: 0.95
-background_opacity: 1
+background_opacity: .9
 
 selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
