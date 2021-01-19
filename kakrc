@@ -216,3 +216,4 @@ select-or-add-cursor %{
 }
 map global normal '<c-d>' ': select-or-add-cursor<ret>' -docstring "add cursor on current word, and jump to the next match"
 
+set-option global scrolloff 5,3

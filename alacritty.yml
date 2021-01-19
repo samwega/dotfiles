@@ -1,6 +1,4 @@
 # Alacritty 0.7.0-dev (ada2680) - may break alacritty 0.6
-# Configuration for Alacritty, the GPU enhanced terminal emulator.
-
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty itself.
@@ -12,23 +10,6 @@
   # check the local terminfo database and use `alacritty` if it is
   # available, otherwise `xterm-256color` is used.
   #TERM: alacritty
-
-#window:
-  # Window dimensions (changes require restart)
-  #
-  # Specified in number of columns/lines, not pixels.
-  # If both are `0`, this setting is ignored.
-  #dimensions:
-  #  columns: 0
-  #  lines: 0
-
-  # Window position (changes require restart)
-  #
-  # Specified in number of pixels.
-  # If the position is not set, the window manager will handle the placement.
-  #position:
-  #  x: 0
-  #  y: 0
 
   # Window padding (changes require restart)
   #
@@ -136,15 +117,15 @@ colors:
   # Default colors
   primary:
     background: '#121424'
-    foreground: '#a18c4f'
+    foreground: '#B3A379'
 
     # Bright and dim foreground colors
     #
     # The dimmed foreground color is calculated automatically if it is not present.
     # If the bright foreground color is not set, or `draw_bold_text_with_bright_colors`
     # is `false`, the normal foreground color will be used.
-    dim_foreground: '#1848B1'
-    bright_foreground: '#3D2627'
+    dim_foreground: '#2963E1'
+    bright_foreground: '#4E2426'
 
   # Cursor colors
   #
@@ -193,14 +174,14 @@ colors:
 
   # Normal colors
   normal:
-   black:   '#805050'
-   red:     '#cc7b66'
+   black:   '#3B1313'
+   red:     '#E0775B'
    green:   '#d8981e'
-   yellow:  '#f0c674'
-   blue:    '#3338AF'
-   magenta: '#b294bb'
+   yellow:  '#FFA800'
+   blue:    '#5D61E2'
+   magenta: '#A362B7'
    cyan:    '#803833'
-   white:   '#3d2636'
+   white:   '#9F6A39'
 
   # Bright colors
   #bright:
@@ -279,11 +260,7 @@ colors:
   #command: None
 
 # Background opacity
-#
-# Window opacity as a floating point number from `0.0` to `1.0`.
-# The value `0.0` is completely transparent and `1.0` is opaque.
-# background_opacity: 0.95
-background_opacity: .85
+background_opacity: .8
 
 selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
@@ -291,17 +268,13 @@ selection:
   # When set to `true`, selected text will be copied to the primary clipboard.
   save_to_clipboard: true
 
-# Allow terminal applications to change Alacritty's window title.
-#dynamic_title: true ##deprecated, see window.dynamic_title instead
-
 cursor:
-  # Cursor style
-  #
-  # Values for `style`:
+  style:
+    shape: Block
+    blinking: On
   #   - ▇ Block
   #   - _ Underline
   #   - | Beam
-  style: Block
 
   # Vi mode cursor style
   #
@@ -334,11 +307,6 @@ shell: /bin/fish
 #  program: /bin/fish
 #  args:
 #    - --login
-
-cursor:
-  style:
-    shape: Block
-    blinking: On
 
 # Startup directory
 #
