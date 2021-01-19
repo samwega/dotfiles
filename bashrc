@@ -144,10 +144,10 @@ ex ()
 }
 
 #neofetch
-figlet samwega
+# figlet samwega
 #chafa ~/Pictures/SamVega.gif
 
 export EDITOR="kak"
 eval "$(starship init bash)"
 
-
+echo 'bash'

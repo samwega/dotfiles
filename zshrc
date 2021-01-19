@@ -241,3 +241,5 @@ alias f='fff'
 alias d='cd /home/samvega/Repos/gitlab.com/samwega/dotfiles'
 
 # bindkey -v
+
+echo 'zsh'
