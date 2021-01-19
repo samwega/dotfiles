@@ -260,7 +260,7 @@ colors:
   #command: None
 
 # Background opacity
-background_opacity: .8
+background_opacity: .5
 
 selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
