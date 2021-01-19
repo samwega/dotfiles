@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR EDITOR:kak
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_ab:abbr\x20\x2d\x2dshow
 SETUVAR _fish_abbr_bright:xrandr\x20\x2d\x2doutput\x20HDMI\x2dA\x2d1\x20\x2d\x2dbrightness\x201
