@@ -303,7 +303,7 @@ cursor:
 #   - (macOS) /bin/bash --login
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
-shell: /bin/fish
+# shell: /bin/fish
 #  program: /bin/fish
 #  args:
 #    - --login
