@@ -161,7 +161,10 @@ define-command gdb-server -params .. %{
 
 evaluate-commands %sh{ [ -f $kak_config/local.kak ] && echo "source $kak_config/local.kak" }
 
-# PErsonal settings - SamVega
+# Personal settings - SamVega
+
+# source ~/.config/kak/wiki.kak
+# wiki-setup %sh{ echo $HOME/wiki }
 
 #Yank to clipboard (requires xclip)
 hook global NormalKey '[ydc]' %{
@@ -178,9 +181,6 @@ hook global NormalKey '[ydc]' %{
 source /home/samvega/.config/kak/out-of-the-box/oob.kak
 source ~/.config/kak/sudo-write.kak
 
-source ~/.config/kak/wiki.kak
-wiki-setup %sh{ echo $HOME/wiki }
-
 map global normal '#' :comment-line<ret>
 
 set-option global autoreload yes
@@ -191,6 +191,7 @@ map global normal <space> ,
 
 #User mappings
 map global user <z> :write-quit<ret> -docstring "write-quit"
+map global user <q> :quit!<ret> -docstring "quit!"
 map global user <space> :buffer-next<ret> -docstring "buffer-next"
 
 # Ctrl for moving objects in insert mode
