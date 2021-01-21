@@ -150,4 +150,4 @@ ex ()
 export EDITOR="kak"
 eval "$(starship init bash)"
 
-echo 'bash'
+echo '៚'
