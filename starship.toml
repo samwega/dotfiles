@@ -2,8 +2,8 @@
 # success_symbol = "[└❯](green)"
 # success_symbol = "[└^=|>](green)"
 # success_symbol = "[~@|>](green)"
-# success_symbol = "[๛](green)"
-success_symbol = "[៚ ](green)"
+success_symbol = "[⤷](bold green)"
+# success_symbol = "[៚ ](bold green)"
 
 [python]
 symbol = '⚕ '
@@ -14,4 +14,5 @@ symbol = '🛼 '
 [lua]
 symbol = '☯ '
 
-# ⚕ ~-🕉 -~ ☸  ∈ ψ Ψ ⎯⎯∈ ⧖ 𓂀
+# ⚕ ~-🕉 -~ ☸  ∈ ψ Ψ ⎯⎯∈ ⧖ 𓂀  ⇝
+# ↳ ๛

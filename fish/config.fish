@@ -10,8 +10,9 @@ set -x CDPATH /home/samvega/Repos/samwega/ .
 # set fish_greeting "꧁ ༺ ༒ ༻ ꧂ "
 # set fish_greeting "♛"
 # set fish_greeting "※ ะ"
+set fish_greeting "៚ "
 # set fish_greeting "๛"
-# set fish_greeting "᳀ ༫ ࿂ ࿆༗ ₷ Ꮠ ℟"
+# set fish_greeting "᳀ ༫ ↭ ࿂ ࿆༗ ₷ Ꮠ ℟"
 # set fish_greeting "࿇"
-set fish_greeting "༺  ♛ ༻"
+# set fish_greeting "༺  ♛ ༻"
 
