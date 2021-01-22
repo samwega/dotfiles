@@ -163,15 +163,7 @@ evaluate-commands %sh{ [ -f $kak_config/local.kak ] && echo "source $kak_config/
 
 # Personal settings - SamVega
 
-# source ~/.config/kak/wiki.kak
 # wiki-setup %sh{ echo $HOME/wiki }
-
-#Yank to clipboard (requires xclip)
-hook global NormalKey '[ydc]' %{
-      nop %sh{
-              (printf '%s' "$kak_main_reg_dquote" | xclip -filter | xclip -selection clipboard) < /dev/null > /dev/null 2>&1 &
-      }
-}
 
 # Paste (requires xclip)
  map global user p -docstring 'Paste (After)' '<a-!>xclip -out -selection clipboard<ret>'
@@ -179,7 +171,8 @@ hook global NormalKey '[ydc]' %{
  map global user R -docstring 'Replace' '|xclip -out -selection clipboard<ret>'
  
 source /home/samvega/.config/kak/out-of-the-box/oob.kak
-source ~/.config/kak/sudo-write.kak
+#source ~/.config/kak/sudo-write.kak  # added to /autoload
+# source ~/.config/kak/wiki.kak  # added to /autoload
 
 map global normal '#' :comment-line<ret>
 
@@ -217,4 +210,15 @@ select-or-add-cursor %{
 }
 map global normal '<c-d>' ': select-or-add-cursor<ret>' -docstring "add cursor on current word, and jump to the next match"
 
-set-option global scrolloff 5,3
+set-option global scrolloff 7,3
+
+map global user a '*%s<ret>' -docstring 'select all'
+
+
+#Yank to system clipboard (requires xclip)
+# hook global NormalKey '[ydc]' %{
+#       nop %sh{
+#               (printf '%s' "$kak_main_reg_dquote" | xclip -filter | xclip -selection clipboard) < /dev/null > /dev/null 2>&1 &
+#       }
+# }
+# I now find it unnecessary. I have a user-mapping for yanking to sys clip.

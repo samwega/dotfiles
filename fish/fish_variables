@@ -25,6 +25,7 @@ SETUVAR _fish_abbr_py:ipython\x20\x2d\x2dprofile\x3dsamvega
 SETUVAR _fish_abbr_q:rofi\x20\x2dshow\x20calc\x20\x2dmodi\x20calc\x20\x2dno\x2dshow\x2dmatch\x20\x2dno\x2dsort
 SETUVAR _fish_abbr_rc_2E_lua:kak\x20/home/samvega/\x2econfig/awesome/rc\x2elua
 SETUVAR _fish_abbr_tr:tree\x20\x2dhAC\x20\x2d\x2ddirsfirst
+SETUVAR _fish_abbr_we:curl\x20wttr\x2ein/roma
 SETUVAR _fish_abbr_wh:whereis
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
@@ -49,7 +50,7 @@ SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrbl
 SETUVAR fish_color_status:red
 SETUVAR fish_color_user:brgreen
 SETUVAR fish_color_valid_path:\x2d\x2dunderline
-SETUVAR fish_greeting:\U00016b45\x20
+SETUVAR fish_greeting:\u2671\x20Lord\x20Jesus\x20Christ\x20\u2671\x0a\x20\x20\x20\u2626\x20Son\x20of\x20God\x20\u2626\x0a\x20\x20have\x20mercy\x20on\x20me\x0a\x20\x20\x20\u271f\u271e\x20a\x20sinner\x20\u271e\u271f\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\U00016b45
 SETUVAR fish_key_bindings:fish_default_key_bindings
 SETUVAR fish_pager_color_completion:\x1d
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
