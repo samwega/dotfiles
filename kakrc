@@ -222,3 +222,5 @@ map global user a '*%s<ret>' -docstring 'select all'
 #       }
 # }
 # I now find it unnecessary. I have a user-mapping for yanking to sys clip.
+
+map global normal <c-x> ':w<ret> $ alacritty -e glow -p $kak_buffile'
