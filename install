@@ -45,9 +45,9 @@ ls -l ~/.bashrc
 ln -sf $PWD/tmux.conf ~/.tmux.conf
 ls -l ~/.tmux.conf
 
-unlink ~/.elinks
-ln -sf $PWD/elinks ~/.elinks
-ls -l ~/.elinks
+unlink ~/.elinks/elinks.conf
+ln -sf $PWD/elinks.conf ~/.elinks/
+ls -l ~/.elinks/elinks.conf
 
 unlink ~/.config/fish
 ln -sf $PWD/fish ~/.config/fish

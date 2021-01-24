@@ -19,7 +19,10 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"A File Icon",
+		"BracketHighlighter",
+		"Vintage",
+		"zzz A File Icon zzz"
 	],
 	"overlay_scroll_bars": "enabled",
 	"scroll_speed": 2.0,
