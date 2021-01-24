@@ -21,6 +21,7 @@ scrolling:
 font:
   normal:
     family: FiraCode
+   # family: iA Writer Mono S
    # family: NotoSansMono
    # family: monospace
    # family: liberationmono
@@ -35,11 +36,11 @@ font:
     style: Semibold
 
   italic:
-    family: FiraCode
-    style: Italic
+    family: Fira Mono
+    style: Regular Italic
 
   bold_italic:
-    family: FiraCode
+    family: Fira Mono
     style: Bold Italic
 
   # Point size
