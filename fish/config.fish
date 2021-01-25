@@ -9,3 +9,7 @@ set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 set fish_greeting "<><"
 
 source ~/.config/fish/jp.fish
+
+alias vi="kak"
+alias vim="kak"
+
