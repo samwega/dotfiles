@@ -7,32 +7,28 @@ local dpi = require("beautiful.xresources").apply_dpi
 
 -- {{{ Main
 local theme = {}
-theme.confdir = os.getenv("HOME") .. "/.config/awesome/themes/shiva"
+theme.confdir = os.getenv("HOME") .. "/.config/awesome/themes/legio"
 theme.wallpaper = theme.confdir .. "/spheres.jpg"
 -- }}}
 
 -- {{{ Styles
--- theme.font      = "monospace 11"
--- theme.font      = "Bitstream Vera Sans Mono"
--- theme.font      = "DejaVu Sans Mono 12"
-theme.font      = "Ubuntu Mono Bold 12"
--- theme.font      = "Fira Font Bold 11"
+theme.font      = "Ubuntu Mono 13"
 
 -- {{{ Colors
 theme.fg_normal  = "#898445"
 theme.fg_focus   = "#a18c4f"
 theme.fg_urgent  = "#ea6868"
--- theme.bg_normal  = "#171F48AA"
+-- theme.bg_normal  = "#0F121FAA"
 -- theme.bg_focus   = "#17204393"
 -- theme.bg_urgent  = "#2E497B99"
-theme.bg_normal  = "#171F48"
-theme.bg_focus   = "#172043"
-theme.bg_urgent  = "#2E497B"
+theme.bg_normal  = "#001815"
+theme.bg_focus   = "#083B36"
+theme.bg_urgent  = "#001815"
 theme.bg_systray = theme.bg_normal
 -- }}}
 
 -- {{{ Borders
-theme.useless_gap   = dpi(5)	--option 1
+theme.useless_gap   = dpi(6)
 theme.border_width  = dpi(1)
 theme.border_normal = "#313131"
 theme.border_focus  = "#141f37"
@@ -56,7 +52,6 @@ theme.mouse_finder_color = "#CC9393"
 -- menu_[border_color|border_width]
 theme.menu_height = dpi(22)
 theme.menu_width  = dpi(148)
--- theme.menu_submenu_width = dpi(100)
 -- }}}
 
 -- {{{ Icons
@@ -67,13 +62,12 @@ theme.taglist_fg_focus    = "#8C5A13"
 theme.taglist_fg_occupied = "#c29721"
 theme.taglist_fg_urgent   = "#ED7572"
 theme.taglist_fg_empty    = "#c29721"
-theme.taglist_spacing     = 4
-theme.taglist_font        = "Fira Font 21"
+theme.taglist_spacing     = 20
+theme.taglist_font        = "Fira Code 21"
 -- }}}
 
 -- {{{ Misc
 theme.awesome_icon           = theme.confdir .. "/trident.jpg"
--- theme.menu_submenu_icon      = theme.confdir .. "/default/submenu.png"
 -- }}}
 
 -- {{{ Layout

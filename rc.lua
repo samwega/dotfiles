@@ -52,8 +52,8 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
--- beautiful.init(gears.filesystem.get_themes_dir() .. "shiva/theme.lua")
-beautiful.init(os.getenv("HOME") .. "/.config/awesome/themes/shiva/theme.lua")
+-- beautiful.init(gears.filesystem.get_themes_dir() .. "legio/theme.lua")
+beautiful.init(os.getenv("HOME") .. "/.config/awesome/themes/legio/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "alacritty"
@@ -182,7 +182,8 @@ awful.screen.connect_for_each_screen(function(s)
     set_wallpaper(s)
 
     -- Each screen has its own tag table.
-    awful.tag({ "S", "h", "i", "v", "a", " ", "~", " ", }, s, awful.layout.layouts[1])
+    -- awful.tag({ "S", "h", "i", "v", "a", " ", "~", " ", }, s, awful.layout.layouts[1])
+    awful.tag({ "L", "e", "g", "i", "o", " ", "~", " ", }, s, awful.layout.layouts[1])
 
     -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
@@ -241,6 +242,7 @@ awful.screen.connect_for_each_screen(function(s)
         { -- Left widgets
             layout = wibox.layout.fixed.horizontal,
             mylauncher,
+            ram_widget(),
             s.mytaglist,
             cpu_widget({
                 width = 70,
@@ -254,7 +256,6 @@ awful.screen.connect_for_each_screen(function(s)
         { -- Right widgets
             layout = wibox.layout.fixed.horizontal,
             -- mykeyboardlayout,
-            ram_widget(),
             wibox.widget.systray(),
             volume_widget({display_notification = true}),
             mytextclock,

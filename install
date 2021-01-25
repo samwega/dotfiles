@@ -53,9 +53,9 @@ unlink ~/.config/fish
 ln -sf $PWD/fish ~/.config/fish
 ls -l ~/.config/fish
 
-unlink ~/.config/awesome/themes/shiva
-ln -sf $PWD/shiva ~/.config/awesome/themes/shiva
-ls -l ~/.config/awesome/themes/shiva
+unlink ~/.config/awesome/themes/legio
+ln -sf $PWD/legio ~/.config/awesome/themes/legio
+ls -l ~/.config/awesome/themes/legio
 
 # ln -sf $PWD/qpdfview.conf ~/.config/qpdfview/qpdfview.conf
 # ls -l ~/.config/qpdfview/qpdfview.conf
