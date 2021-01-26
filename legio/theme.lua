@@ -1,5 +1,5 @@
 -------------------------------
---  "Shiva" awesome theme  --
+--  "Legio" awesome theme  --
 -------------------------------
 
 local themes_path = require("gears.filesystem").get_themes_dir()
@@ -28,7 +28,7 @@ theme.bg_systray = theme.bg_normal
 -- }}}
 
 -- {{{ Borders
-theme.useless_gap   = dpi(6)
+theme.useless_gap   = dpi(5)
 theme.border_width  = dpi(1)
 theme.border_normal = "#313131"
 theme.border_focus  = "#141f37"
