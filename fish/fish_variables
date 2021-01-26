@@ -3,6 +3,7 @@
 SETUVAR EDITOR:kak
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_ab:abbr\x20\x2d\x2dshow
+SETUVAR _fish_abbr_bk:backup
 SETUVAR _fish_abbr_bright:xrandr\x20\x2d\x2doutput\x20HDMI\x2dA\x2d1\x20\x2d\x2dbrightness\x201
 SETUVAR _fish_abbr_c:clear
 SETUVAR _fish_abbr_d:cd\x20/home/samvega/Repos/samwega/dotfiles
@@ -24,6 +25,7 @@ SETUVAR _fish_abbr_push:git\x20push
 SETUVAR _fish_abbr_py:ipython\x20\x2d\x2dprofile\x3dsamvega
 SETUVAR _fish_abbr_q:rofi\x20\x2dshow\x20calc\x20\x2dmodi\x20calc\x20\x2dno\x2dshow\x2dmatch\x20\x2dno\x2dsort
 SETUVAR _fish_abbr_rc_2E_lua:kak\x20/home/samvega/\x2econfig/awesome/rc\x2elua
+SETUVAR _fish_abbr_re:restore_backup
 SETUVAR _fish_abbr_tr:tree\x20\x2dhAC\x20\x2d\x2ddirsfirst
 SETUVAR _fish_abbr_we:curl\x20wttr\x2ein/roma
 SETUVAR _fish_abbr_wh:whereis
