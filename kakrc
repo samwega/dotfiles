@@ -29,10 +29,15 @@ hook global WinSetOption filetype=(c|cpp) %{
     alias window lint-next-error clang-diagnostics-next
 }
 
-# hook global WinSetOption filetype=python %{
-#     jedi-enable-autocomplete
-#     lint-enable
-#     set-option global lintcmd 'pyflakes'
+hook global WinSetOption filetype=python %{
+    jedi-enable-autocomplete
+    lint-enable
+    set-option global lintcmd 'pyflakes'
+}
+
+# go linter, currently not working, missing gogetdoc and gocode. Need to set up go env.
+# hook window WinSetOption filetype=go %{
+#     set window lintercmd golint-kak
 # }
 
 hook global WinSetOption filetype=python %{
@@ -224,3 +229,13 @@ map global user a '*%s<ret>' -docstring 'select all'
 # I now find it unnecessary. I have a user-mapping for yanking to sys clip.
 
 map global normal <c-x> ':w<ret> $ alacritty -e glow -p $kak_buffile'
+
+## lsp-server configuration - language servers for kak-lsp
+eval %sh{kak-lsp --kakoune -s $kak_session}
+
+hook global WinSetOption filetype=(python|go|javascript) %{
+    lsp-enable-window
+}
+
+set-option global lsp_server_configuration pyls.configurationSources=["flake8"]
+
