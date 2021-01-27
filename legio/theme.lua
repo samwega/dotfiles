@@ -62,7 +62,7 @@ theme.taglist_fg_focus    = "#8C5A13"
 theme.taglist_fg_occupied = "#c29721"
 theme.taglist_fg_urgent   = "#ED7572"
 theme.taglist_fg_empty    = "#c29721"
-theme.taglist_spacing     = 20
+theme.taglist_spacing     = 17
 theme.taglist_font        = "Fira Code 21"
 -- }}}
 

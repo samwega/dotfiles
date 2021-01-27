@@ -65,7 +65,8 @@ font:
 colors:
   # Default colors
   primary:
-    background: '#121424'
+    # background: '#121424'
+    background: '#000800'
     foreground: '#FED15B'
 
     dim_foreground: '#2963E1'
@@ -130,7 +131,7 @@ colors:
   #  white:   '#828482'
 
 # Background opacity
-background_opacity: .5
+background_opacity: .6
 
 selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
