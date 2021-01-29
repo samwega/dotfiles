@@ -3,10 +3,9 @@ title: resume
 ---
 
 ## saṃvega
-
 #### Hire me
 
-##### interested in remote and freelance work
+###### interested in remote and freelance work
 
 #### knowledge base
 * SSH
@@ -28,5 +27,3 @@ title: resume
 * quality assurance, 2014-2021
 
 check out my [dotfiles](https://github.com/samwega/dotfiles)
-
-[img](trident.jpg)
