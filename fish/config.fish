@@ -13,3 +13,4 @@ set fish_greeting "<><"
 alias vi="kak"
 alias vim="kak"
 
+bind \ed __fish_prepend_doas
