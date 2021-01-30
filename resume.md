@@ -3,20 +3,17 @@ title: resume
 ---
 
 ## saṃvega
-#### Hire me
+#### hire me
 
 ###### interested in remote and freelance work
 
 #### knowledge base
-* SSH
-* git
-* Python
-* SQLite
-* Wordpress
-* LAMP stack
-* terminal/bash/vi
-* linux - arch, debian
-* qemu/virt-manager, VirtualBox
+* linux: arch - ubuntu
+* terminal - shell - vi - git - ssh - tmux
+* python - shell scripting
+* wordpress - lamp stack - sqlite
+* markdown - pandoc - html - css - yaml
+* qemu/virt-manager - virtualbox
 
 #### skills
 * learning
