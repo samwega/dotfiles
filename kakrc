@@ -187,12 +187,12 @@ set-option global aligntab true
 map global normal , <space>
 map global normal <space> ,
 
-#User mappings
+## User mappings ##
 map global user <z> :write-quit<ret> -docstring "write-quit"
 map global user <q> :quit!<ret> -docstring "quit!"
 map global user <space> :buffer-next<ret> -docstring "buffer-next"
 
-# Ctrl for moving objects in insert mode
+## Ctrl for moving objects in insert mode
 map global insert <c-left>    '<a-;>b<a-;>;'
 map global insert <c-right>   '<a-;>w<a-;>;'
 map global insert <c-up>      '<a-;>[p<a-;>;'
@@ -202,7 +202,7 @@ map global normal <c-right>   'w;'
 map global normal <c-up>      '[p;'
 map global normal <c-down>    ']p;'
 
-# sublime functionality "ctrl-d" selection.
+## sublime functionality "ctrl-d" selection.
 define-command -hidden -docstring \
 "select a word under cursor, or add cursor on next occurrence of current selection" \
 select-or-add-cursor %{
@@ -220,7 +220,7 @@ set-option global scrolloff 5,3
 map global user a '*%s<ret>' -docstring 'select all'
 
 
-#Yank to system clipboard (requires xclip)
+## Yank to system clipboard (requires xclip)
 # hook global NormalKey '[ydc]' %{
 #       nop %sh{
 #               (printf '%s' "$kak_main_reg_dquote" | xclip -filter | xclip -selection clipboard) < /dev/null > /dev/null 2>&1 &
@@ -239,4 +239,5 @@ hook global WinSetOption filetype=(python|go|javascript) %{
 
 set-option global lsp_server_configuration pyls.configurationSources=["flake8"]
 
-set global formatcmd fmt
+## format whole document in html
+set global formatcmd "pandoc -t html" 
