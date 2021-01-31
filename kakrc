@@ -228,7 +228,7 @@ map global user a '*%s<ret>' -docstring 'select all'
 # }
 # I now find it unnecessary. I have a user-mapping for yanking to sys clip.
 
-map global normal <c-x> ':w<ret> $ alacritty -e glow -p $kak_buffile'
+map global user -docstring 'preview markdown in glow' x ':w<ret> $ alacritty -e glow -p $kak_buffile<ret>'
 
 ## lsp-server configuration - language servers for kak-lsp
 eval %sh{kak-lsp --kakoune -s $kak_session}
