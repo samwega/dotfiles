@@ -14,6 +14,7 @@ SETUVAR _fish_abbr_gc:git\x20commit\x20\x2da\x20\x2dm\x20\x22\x2d\x22
 SETUVAR _fish_abbr_gitu:git\x20push\x20\x2du\x20origin\x20\x2d\x2dall\x20\x26\x26\x20git\x20push\x20\x2du\x20upstream\x20\x2d\x2dall
 SETUVAR _fish_abbr_gs:git\x20status
 SETUVAR _fish_abbr_hof:lsd\x20\x2dal\x20\x2d\x2dgroup\x2ddirs\x20first
+SETUVAR _fish_abbr_hosts:doas\x20kak\x20/etc/hosts
 SETUVAR _fish_abbr_ipy:ipython
 SETUVAR _fish_abbr_k:kak
 SETUVAR _fish_abbr_l:lsd\x20\x2dhA\x20\x2d\x2dgroup\x2ddirs\x20first
