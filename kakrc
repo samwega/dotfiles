@@ -239,5 +239,7 @@ hook global WinSetOption filetype=(python|go|javascript) %{
 
 set-option global lsp_server_configuration pyls.configurationSources=["flake8"]
 
-## format whole document in html
-set global formatcmd "pandoc -t html" 
+## format whole document in html or something else
+set global formatcmd 'pandoc -t html'
+# set global formatcmd 'prettier --parser=scss'  # for css
+
