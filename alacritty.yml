@@ -131,7 +131,7 @@ colors:
   #  white:   '#828482'
 
 # Background opacity
-background_opacity: .4
+background_opacity: .6
 
 selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"

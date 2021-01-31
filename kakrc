@@ -243,3 +243,20 @@ set-option global lsp_server_configuration pyls.configurationSources=["flake8"]
 set global formatcmd 'pandoc -t html'
 # set global formatcmd 'prettier --parser=scss'  # for css
 
+# Cursor color changes
+# works with my alacritty colors, which are far from default.
+
+hook global ModeChange .*:insert %{
+    set-face window PrimaryCursor black,bright-red+F
+    set-face window SecondaryCursor black,bright-magenta+F
+    set-face window PrimaryCursorEol black,red
+    set-face window SecondaryCursorEol black,magenta
+}
+
+hook global ModeChange .*:normal %{
+    set-face window PrimaryCursor black,yellow+F
+    set-face window PrimaryCursorEol black,yellow
+    set-face window SecondaryCursor black,bright-green+F
+    set-face window SecondaryCursorEol black,bright-green
+}
+
