@@ -239,3 +239,4 @@ hook global WinSetOption filetype=(python|go|javascript) %{
 
 set-option global lsp_server_configuration pyls.configurationSources=["flake8"]
 
+set global formatcmd fmt
