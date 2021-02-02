@@ -10,7 +10,7 @@ title: resume
 #### knowledge base
 * linux: arch - ubuntu
 * terminal - shell - vi - git - ssh - tmux
-* python - shell scripting
+* python - shell scripting - regex
 * wordpress - lamp stack - sqlite
 * markdown - pandoc - html - css - yaml
 * qemu/virt-manager - virtualbox
