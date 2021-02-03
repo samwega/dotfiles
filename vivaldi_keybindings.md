@@ -19,7 +19,8 @@ Developer Tools Console  Ctrl+Shift+i
 Status Bar 				 Ctrl+Shift+s
 Next Theme 				 Ctrl+t
 Address Bar 			 ;
-Toggle UI 				 Z
+Toggle UI 				 z
+UI Zoom in / out 		 Alt +/-
 Panel 					 '
 Open Next Panel 		 Ctrl+'
 Open Previous Panel 	 "
@@ -27,7 +28,10 @@ Download Panel 			 Ctrl+d
 Notes Panel 			 Ctrl+n
 History Panel 			 Ctrl+Shift+h
 New Tab 				 t
+Pin/Unpin Tab 			 @ (Shift+2)
 Close Tab 				 Ctrl+w & x (when cursor is in a text field, single keys do not work, use Ctrl+w)
+Previous Tab 			 Ctrl+h
+Next Tab 				 Ctrl+l
 Move Active Tab backward Shift+, (<)
 Move Active Tab forward  Shift+. (>)
 Select Previous Tab 	 Ctrl+Shift+,
@@ -40,6 +44,7 @@ Tile Horizontally 		 Alt+3
 Tile to Grid 			 Alt+4
 Untile Tabs 			 Alt+1
 Create Tab Stack 		 Alt+t
+Ungroup Tab Stack 		 Ctrl+Alt+t
 Toggle Reader Mode 		 q
 Create Bookmark 		 Alt+b
 Focus Address Field 	 Alt+s
