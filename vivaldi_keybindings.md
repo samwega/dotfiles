@@ -32,8 +32,8 @@ New Tab 				       t
 Pin/Unpin Tab 			       @ (Shift+2)
 Close Tab 				       Ctrl+w & x (when cursor is in a text field, single keys do not work, use Ctrl+w)
 Previous Tab 			       Ctrl+h
-Next Tab 				       Ctrl+l
-Move Active Tab backward       Shift+, (<)
+Next Tab 					   Ctrl+l
+Move Active Tab backward 	   Shift+, (<)
 Move Active Tab forward        Shift+. (>)
 Select Previous Tab 	       Ctrl+Shift+,
 Select Next Tab 		       Ctrl+Shift+.
