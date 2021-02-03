@@ -5,7 +5,7 @@
 
 ---
 ##### Vivaldi Keymap
-**You might have to remove some default Vivaldi keybindings that interfere with Vimiums**
+*You might have to remove some default Vivaldi keybindings that interfere with Vimiums*
 
 ```
 Quick commands 			 Alt+d
