@@ -5,8 +5,9 @@
 
 ---
 ##### Vivaldi Keymap
-`You might have to remove some default Vivaldi keybindings that interfere with Vimiums`
+**You might have to remove some default Vivaldi keybindings that interfere with Vimiums**
 
+```
 Quick commands 			 Alt+d
 Task Manager 			 Shift+Esc
 Settings 				 Alt+Space
@@ -56,11 +57,13 @@ History Back 			 Alt+left-arrow & Alt+h
 History Forward 		 Alt+right-arrow & Alt+l
 Search with Selection 	 Shift+s (S)
 Spacial Navigation 		 WASD
+```
 
 ---
 ##### Vimium Custom Key Mappings
 
 ###### Insert your preferred key
+```
 unmap H
 unmap L
 unmap r
@@ -78,26 +81,28 @@ unmap zL
 map ge scrollToBottom
 map H scrollToLeft
 map L scrollToRight
+```
 ---
 
 ##### Vimium CSS
-
+```
 div > .vimiumHintMarker {
 /* linkhint boxes */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,indigo),
-  color-stop(100%,Plum));
-  border: 1px solid #E3BE23;
-  }
+color-stop(100%,Plum));
+border: 1px solid #E3BE23;
+}
 
-  div > .vimiumHintMarker span {
-  /* linkhint text */
-  color: gold;
-  font-weight: thin;
-  font-size: 11px;
-  /* Replace with a font you have installed */
-  font-face: Fira Code;
-  }
+div > .vimiumHintMarker span {
+/* linkhint text */
+color: gold;
+font-weight: thin;
+font-size: 11px;
+/* Replace with a font you have installed */
+font-face: Fira Code;
+}
 
-  div > .vimiumHintMarker > .matchingCharacter {
-  }
+div > .vimiumHintMarker > .matchingCharacter {
+}
+```
 ---
