@@ -191,6 +191,7 @@ map global normal <space> ,
 map global user <z> :write-quit<ret> -docstring "write-quit"
 map global user <q> :quit!<ret> -docstring "quit!"
 map global user <space> :buffer-next<ret> -docstring "buffer-next"
+map global user <f> :go-format<ret> -docstring "go-format"
 
 ## Ctrl for moving objects in insert mode
 map global insert <c-left>    '<a-;>b<a-;>;'
