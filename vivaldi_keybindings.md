@@ -85,20 +85,22 @@ map L scrollToRight
 
 ##### Vimium CSS
 ```
+/* CSS */
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css);
+
 div > .vimiumHintMarker {
 /* linkhint boxes */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,indigo),
-color-stop(100%,Plum));
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,darkblue),
+  color-stop(100%,DarkTurquoise));
 border: 1px solid #E3BE23;
 }
 
 div > .vimiumHintMarker span {
 /* linkhint text */
 color: gold;
-font-weight: thin;
-font-size: 11px;
-/* Replace with a font you have installed */
-font-face: Fira Code;
+font-weight: normal;
+font-size: 13px;
+font-face: Fira Code, monospace;
 }
 
 div > .vimiumHintMarker > .matchingCharacter {
