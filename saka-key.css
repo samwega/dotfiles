@@ -1,0 +1,19 @@
+/*Repalced Vimium with Saka Key*/
+
+/*Hint CSS*/
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,darkblue),
+  color-stop(100%,DarkTurquoise));
+border: 1px solid orange;
+border-radius: 2px;
+color: gold;
+font-weight: normal;
+font-face: Fira Code;
+opacity: 0.9;
+
+/*Normal Character CSS*/
+font-size: 19px;
+text-transform: uppercase;
+
+/*Active Character CSS*/
+color: black;
