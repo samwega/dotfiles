@@ -92,7 +92,7 @@ div > .vimiumHintMarker {
 /* linkhint boxes */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,darkblue),
   color-stop(100%,DarkTurquoise));
-border: 1px solid #E3BE23;
+border: 1px solid orange;
 }
 
 div > .vimiumHintMarker span {
