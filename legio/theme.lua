@@ -28,7 +28,7 @@ theme.bg_systray = theme.bg_normal
 -- }}}
 
 -- {{{ Borders
-theme.useless_gap   = dpi(5)
+theme.useless_gap   = dpi(7)
 theme.border_width  = dpi(1)
 theme.border_normal = "#313131"
 theme.border_focus  = "#141f37"
@@ -58,12 +58,12 @@ theme.menu_width  = dpi(148)
 -- {{{ Taglist
 theme.taglist_squares_sel   = theme.confdir .. "/taglist/squarefz.png"
 theme.taglist_squares_unsel = theme.confdir .. "/taglist/squarez.png"
-theme.taglist_fg_focus    = "#8C5A13"
-theme.taglist_fg_occupied = "#c29721"
+theme.taglist_fg_focus    = "#DE5B00"
+theme.taglist_fg_occupied = "#C29721"
 theme.taglist_fg_urgent   = "#ED7572"
-theme.taglist_fg_empty    = "#c29721"
-theme.taglist_spacing     = 17
-theme.taglist_font        = "Fira Code 21"
+theme.taglist_fg_empty    = "#C29721"
+theme.taglist_spacing     = 12
+theme.taglist_font        = "Fira Code 17"
 -- }}}
 
 -- {{{ Misc
