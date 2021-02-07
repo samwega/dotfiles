@@ -14,6 +14,8 @@
 	"gn_overlay_scroll_bars": true,
 	"gn_sidebar_box": true,
 	"gn_title_bar": true,
+	"gnc_001": false,
+	"gnc_002": true,
 	"gnwidgo": true,
 	"gnwidgx": true,
 	"highlight_line": true,

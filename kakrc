@@ -37,7 +37,7 @@ hook global WinSetOption filetype=python %{
 
 # go linter, currently not working, missing gogetdoc and gocode. Need to set up go env.
 # hook window WinSetOption filetype=go %{
-#     set window lintercmd golint-kak
+#     set window lintercmd golangci-lint
 # }
 
 hook global WinSetOption filetype=python %{
