@@ -35,13 +35,21 @@ hook global WinSetOption filetype=python %{
     set-option global lintcmd 'pyflakes'
 }
 
-# go linter, currently not working, missing gogetdoc and gocode. Need to set up go env.
-# hook window WinSetOption filetype=go %{
-#     set window lintercmd golangci-lint
-# }
+hook global WinSetOption filetype=go %{
+    gocode-enable-autocomplete
+    lint-enable
+    set global lintcmd 'revive'
+
+}
+
+hook global WinSetOption filetype=go %{
+    set window lintcmd "run() { sync; cp $1 $1.go; revive $1.go; go vet $1.go 2>&1 | sed -E 's/: /: error: /'; } && run"
+    lint-enable
+    hook buffer BufWritePost .* lint
+}
 
 hook global WinSetOption filetype=python %{
-        set-option window lintcmd %{ run() { pylint --msg-template='{path}:{line}:{column}: {category}: {msg_id}: {msg} ({symbol})' "$1" | awk -F: 'BEGIN { OFS=":" } { if (NF == 6) { $3 += 1; print } }'; } && run }
+set-option window lintcmd %{ run() { pylint --msg-template='{path}:{line}:{column}: {category}: {msg_id}: {msg} ({symbol})' "$1" | awk -F: 'BEGIN { OFS=":" } { if (NF == 6) { $3 += 1; print } }'; } && run }
 }
 
 map -docstring "xml tag objet" global object t %{c<lt>([\w.]+)\b[^>]*?(?<lt>!/)>,<lt>/([\w.]+)\b[^>]*?(?<lt>!/)><ret>}
@@ -220,21 +228,12 @@ set-option global scrolloff 5,3
 
 map global user a '*%s<ret>' -docstring 'select all'
 
-
-## Yank to system clipboard (requires xclip)
-# hook global NormalKey '[ydc]' %{
-#       nop %sh{
-#               (printf '%s' "$kak_main_reg_dquote" | xclip -filter | xclip -selection clipboard) < /dev/null > /dev/null 2>&1 &
-#       }
-# }
-# I now find it unnecessary. I have a user-mapping for yanking to sys clip.
-
 map global user -docstring 'preview markdown in glow' x ':w<ret> $ alacritty -e glow -p $kak_buffile<ret>'
 
 ## lsp-server configuration - language servers for kak-lsp
 eval %sh{kak-lsp --kakoune -s $kak_session}
 
-hook global WinSetOption filetype=(python|go|javascript) %{
+hook global WinSetOption filetype=(python|go|javascript|fish|bash) %{
     lsp-enable-window
 }
 
