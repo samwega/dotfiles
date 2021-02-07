@@ -1,0 +1,377 @@
+{
+  "activeProfiles": {
+    "Appearance": "High Contrast_copy_1612621567636",
+    "Blacklist": "default",
+    "General": "default_copy_1612621105819",
+    "Keybindings": "default_copy_1612621221023"
+  },
+  "profiles": {
+    "Appearance": {
+      "default_copy_1612621543725": {
+        "hintActiveCharCSS": "opacity: 0.5;",
+        "hintBackgroundColor": "#ffffff",
+        "hintBorderColor": "#ffffff",
+        "hintBorderRadius": 4,
+        "hintBorderWidth": 0,
+        "hintCSS": "font-family: Roboto, sans-serif;\nfont-size: 0.8rem;\npadding: 0.15rem 0.25rem;\ncolor: #3f51F5;\nbackground-color: rgb(255, 255, 255);\nborder-radius: 4px;\ntext-align: center;\ntext-decoration: none;\ntext-transform: uppercase;\nvertical-align: middle;\nbox-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.25);\ntransform: translate3d(0, -50%, 0);\nfont-weight: bold;",
+        "hintFontFamily": "Roboto, sans-serif",
+        "hintFontSize": 11,
+        "hintFontWeight": "900",
+        "hintHorizontalPadding": 0.25,
+        "hintHorizontalPlacement": "left",
+        "hintHorizontalTranslation": 0,
+        "hintNormalCharCSS": "",
+        "hintOpacity": "1",
+        "hintShadow": true,
+        "hintTextColor": "#3f51F5",
+        "hintUseCustomCSS": false,
+        "hintUseTargetSize": true,
+        "hintVerticalPadding": 0.15,
+        "hintVerticalPlacement": "center",
+        "hintVerticalTranslation": 0
+      },
+      "High Contrast_copy_1612621567636": {
+        "hintActiveCharCSS": "color: black;",
+        "hintBackgroundColor": "#19326c",
+        "hintBorderColor": "#cac358",
+        "hintBorderRadius": 4,
+        "hintBorderWidth": 1,
+        "hintCSS": " background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,darkblue),\n  color-stop(100%,DarkTurquoise));\nborder: 1px solid orange;\nborder-radius: 2px;\ncolor: gold;\nfont-weight: light;\nfont-face: Fira Code;\nopacity: 0.9;\n",
+        "hintFontFamily": "Palatino, Tahoma",
+        "hintFontSize": 19,
+        "hintFontWeight": "500",
+        "hintHorizontalPadding": 0,
+        "hintHorizontalPlacement": "left",
+        "hintHorizontalTranslation": 0,
+        "hintNormalCharCSS": "font-size: 19px;\ntext-transform: uppercase;\n",
+        "hintOpacity": 1,
+        "hintShadow": false,
+        "hintTextColor": "#e4c83f",
+        "hintUseCustomCSS": true,
+        "hintUseTargetSize": false,
+        "hintVerticalPadding": 0.15,
+        "hintVerticalPlacement": "center",
+        "hintVerticalTranslation": 0
+      }
+    },
+    "Blacklist": {},
+    "General": {
+      "default_copy_1612621105819": {
+        "autoActivateHint": false,
+        "disablePageShortcuts": false,
+        "enabled": true,
+        "hintDetectByCursorStyle": true,
+        "preventStealFocus": false,
+        "scrollStep": 33,
+        "smoothScroll": false
+      }
+    },
+    "Keybindings": {
+      "default_copy_1612621221023": {
+        "clipboardBackgroundTab": [],
+        "clipboardCurrentTab": [
+          [
+            {
+              "altKey": false,
+              "code": "KeyO",
+              "ctrlKey": false,
+              "key": "o",
+              "metaKey": false,
+              "shiftKey": false
+            }
+          ]
+        ],
+        "clipboardForegroundTab": [
+          [
+            {
+              "altKey": false,
+              "code": "KeyO",
+              "ctrlKey": false,
+              "key": "O",
+              "metaKey": false,
+              "shiftKey": true
+            }
+          ]
+        ],
+        "clipboardIncognitoWindow": [],
+        "clipboardNewWindow": [],
+        "closeLeftTabs": [],
+        "closeOtherTabs": [],
+        "closeRightTabs": [],
+        "closeTab": [],
+        "copyURL": [
+          [
+            {
+              "code": "KeyY",
+              "key": "y"
+            },
+            {
+              "code": "KeyY",
+              "key": "y"
+            }
+          ]
+        ],
+        "downloadLink": [],
+        "duplicateTab": [
+          [
+            {
+              "code": "KeyB",
+              "key": "b"
+            }
+          ]
+        ],
+        "exitPassMode": [
+          [
+            {
+              "code": "KeyX",
+              "ctrlKey": true,
+              "key": "x"
+            }
+          ]
+        ],
+        "firstTab": [],
+        "focusInput": [],
+        "focusLink": [],
+        "goBack": [],
+        "goForward": [],
+        "goToRoot": [
+          [
+            {
+              "code": "KeyU",
+              "key": "u"
+            },
+            {
+              "code": "KeyU",
+              "key": "U",
+              "shiftKey": true
+            }
+          ]
+        ],
+        "goUp": [
+          [
+            {
+              "code": "KeyU",
+              "key": "u"
+            },
+            {
+              "code": "KeyU",
+              "key": "u"
+            }
+          ]
+        ],
+        "hardRefreshTab": [],
+        "hintChars": "sadflewcmpgh",
+        "ignoreModifierKeys": false,
+        "lastTab": [],
+        "moveTabFirst": [],
+        "moveTabLast": [],
+        "moveTabLeft": [],
+        "moveTabNewWindow": [],
+        "moveTabRight": [],
+        "newIncognitoWindow": [],
+        "newTab": [],
+        "newWindow": [],
+        "nextPage": [
+          [
+            {
+              "code": "KeyG",
+              "key": "g"
+            },
+            {
+              "code": "KeyH",
+              "key": "h"
+            }
+          ]
+        ],
+        "nextTab": [],
+        "openLink": [
+          [
+            {
+              "altKey": false,
+              "code": "KeyF",
+              "ctrlKey": false,
+              "key": "f",
+              "metaKey": false,
+              "shiftKey": false
+            }
+          ]
+        ],
+        "openLinkInBackgroundTab": [],
+        "openLinkInForegroundTab": [],
+        "openLinkInIncognitoWindow": [],
+        "openLinkInNewWindow": [
+          [
+            {
+              "altKey": false,
+              "code": "KeyF",
+              "ctrlKey": false,
+              "key": "F",
+              "metaKey": false,
+              "shiftKey": true
+            }
+          ]
+        ],
+        "passAllKeys": [
+          [
+            {
+              "code": "Semicolon",
+              "key": ":",
+              "shiftKey": true
+            }
+          ]
+        ],
+        "passOneKey": [
+          [
+            {
+              "code": "Semicolon",
+              "key": ";"
+            }
+          ]
+        ],
+        "physicalKeys": true,
+        "previousPage": [
+          [
+            {
+              "code": "KeyG",
+              "key": "g"
+            },
+            {
+              "code": "KeyF",
+              "key": "f"
+            }
+          ]
+        ],
+        "previousTab": [],
+        "refreshAllTabs": [],
+        "refreshTab": [],
+        "restoreTab": [],
+        "scrollDown": [
+          [
+            {
+              "code": "KeyJ",
+              "key": "j"
+            }
+          ]
+        ],
+        "scrollHalfPageDown": [],
+        "scrollHalfPageUp": [],
+        "scrollLeft": [
+          [
+            {
+              "altKey": false,
+              "code": "KeyH",
+              "ctrlKey": false,
+              "key": "h",
+              "metaKey": false,
+              "shiftKey": false
+            }
+          ]
+        ],
+        "scrollPageDown": [],
+        "scrollPageUp": [],
+        "scrollRight": [
+          [
+            {
+              "altKey": false,
+              "code": "KeyL",
+              "ctrlKey": false,
+              "key": "l",
+              "metaKey": false,
+              "shiftKey": false
+            }
+          ]
+        ],
+        "scrollToBottom": [
+          [
+            {
+              "altKey": false,
+              "code": "KeyG",
+              "ctrlKey": false,
+              "key": "g",
+              "metaKey": false,
+              "shiftKey": false
+            },
+            {
+              "altKey": false,
+              "code": "KeyE",
+              "ctrlKey": false,
+              "key": "e",
+              "metaKey": false,
+              "shiftKey": false
+            }
+          ],
+          [
+            {
+              "altKey": false,
+              "code": "KeyG",
+              "ctrlKey": false,
+              "key": "G",
+              "metaKey": false,
+              "shiftKey": true
+            }
+          ]
+        ],
+        "scrollToLeft": [],
+        "scrollToRight": [],
+        "scrollToTop": [
+          [
+            {
+              "code": "KeyG",
+              "key": "g"
+            },
+            {
+              "code": "KeyG",
+              "key": "g"
+            }
+          ]
+        ],
+        "scrollUp": [
+          [
+            {
+              "code": "KeyK",
+              "key": "k"
+            }
+          ]
+        ],
+        "switchWindow": [
+          [
+            {
+              "code": "Digit5",
+              "key": "%"
+            }
+          ]
+        ],
+        "toggleHelpMenu": [],
+        "toggleMuteAllTabs": [
+          [
+            {
+              "code": "KeyM",
+              "key": "M",
+              "shiftKey": true
+            }
+          ]
+        ],
+        "toggleMuteTab": [
+          [
+            {
+              "code": "KeyM",
+              "key": "m"
+            }
+          ]
+        ],
+        "togglePinTab": [
+          [
+            {
+              "code": "KeyP",
+              "key": "p"
+            }
+          ]
+        ],
+        "toggleSaka": [],
+        "zoomIn": [],
+        "zoomOut": [],
+        "zoomReset": []
+      }
+    }
+  }
+}
