@@ -260,3 +260,4 @@ hook global ModeChange .*:normal %{
     set-face window SecondaryCursorEol black,bright-green
 }
 
+source "%val{config}/plugins/plug.kak/rc/plug.kak"

@@ -243,3 +243,6 @@ alias d='cd /home/samvega/Repos/gitlab.com/samwega/dotfiles'
 # bindkey -v
 
 echo '࿇'
+export GOPATH=$HOME/go
+export PATH=/home/samvega/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/bin/go/:/home/samvega/go/bin
+
