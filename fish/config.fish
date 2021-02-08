@@ -10,6 +10,7 @@ set fish_greeting "<><"
 
 # source ~/.config/fish/jp.fish
 
+alias v="kak"
 alias vi="kak"
 alias vim="kak"
 alias gr="go run"

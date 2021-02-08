@@ -9,10 +9,10 @@ title: resume
 
 #### knowledge base
 * linux: arch - ubuntu
-* terminal - shell - vi - git - ssh - tmux
-* python - shell scripting - regex
-* wordpress - lamp stack - sqlite
+* shell - vi - git - ssh - tmux - kakoune
+* go - python - bash/fish scripting - regex
 * markdown - pandoc - html - css - yaml
+* wordpress - lamp stack - sqlite
 * qemu/virt-manager - virtualbox
 
 #### skills
