@@ -21,6 +21,7 @@ scrolling:
 font:
   normal:
     family: FiraCode
+    # family: JetBrains Mono
    # family: iA Writer Mono S
    # family: NotoSansMono
    # family: monospace
