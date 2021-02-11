@@ -57,7 +57,7 @@ unlink ~/.config/awesome/themes/legio
 ln -sf $PWD/legio ~/.config/awesome/themes/legio
 ls -l ~/.config/awesome/themes/legio
 
-ln -sf $PWD/profile ~/.profile
+cp -i $PWD/.profile ~/.profile
 ls -l ~/.profile
 
 # ln -sf $PWD/qpdfview.conf ~/.config/qpdfview/qpdfview.conf
