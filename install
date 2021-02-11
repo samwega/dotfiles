@@ -57,8 +57,12 @@ unlink ~/.config/awesome/themes/legio
 ln -sf $PWD/legio ~/.config/awesome/themes/legio
 ls -l ~/.config/awesome/themes/legio
 
+ln -sf $PWD/profile ~/.profile
+ls -l ~/.profile
+
 # ln -sf $PWD/qpdfview.conf ~/.config/qpdfview/qpdfview.conf
 # ls -l ~/.config/qpdfview/qpdfview.conf
 
 # ln -sf $PWD/flameshot.ini ~/.config/flameshot/flameshot.ini
 # ls -l ~/.config/flameshot/flameshot.ini
+
