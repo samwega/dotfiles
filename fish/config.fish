@@ -2,6 +2,8 @@
 
 starship init fish | source
 
+source ~/.profile
+
 # set -x CDPATH /home/samvega/Repos/samwega/ .
 
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
