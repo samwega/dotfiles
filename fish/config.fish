@@ -24,4 +24,6 @@ bind \ed __fish_prepend_doas
 # export PATH=/home/samvega/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/bin/go/:/home/samvega/go/bin
 # export GOBIN=$HOME/go/bin
 
-colors -r
+# colors -r
+
+setxkbmap -option caps:swapescape
