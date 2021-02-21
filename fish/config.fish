@@ -26,4 +26,3 @@ bind \ed __fish_prepend_doas
 
 # colors -r
 
-setxkbmap -option caps:swapescape
