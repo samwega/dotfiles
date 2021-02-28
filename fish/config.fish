@@ -12,6 +12,8 @@ set fish_greeting "<><"
 
 # source ~/.config/fish/jp.fish
 
+setxkbmap -option caps:swapescape
+
 alias v="kak"
 alias vi="kak"
 alias vim="kak"
