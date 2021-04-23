@@ -8,7 +8,7 @@ local dpi = require("beautiful.xresources").apply_dpi
 -- {{{ Main
 local theme = {}
 theme.confdir = os.getenv("HOME") .. "/.config/awesome/themes/legio"
-theme.wallpaper = theme.confdir .. "/spheres.jpg"
+theme.wallpaper = theme.confdir .. "/JesusMosesElijah.jpg"
 -- }}}
 
 -- {{{ Styles
@@ -21,8 +21,8 @@ theme.fg_urgent  = "#ea6868"
 -- theme.bg_normal  = "#0F121FAA"
 -- theme.bg_focus   = "#17204393"
 -- theme.bg_urgent  = "#2E497B99"
-theme.bg_normal  = "#001815"
-theme.bg_focus   = "#083B36"
+theme.bg_normal  = "#000918"
+theme.bg_focus   = "#08223B"
 theme.bg_urgent  = "#001815"
 theme.bg_systray = theme.bg_normal
 -- }}}
@@ -67,7 +67,7 @@ theme.taglist_font        = "Fira Code 17"
 -- }}}
 
 -- {{{ Misc
-theme.awesome_icon           = theme.confdir .. "/trident.jpg"
+theme.awesome_icon           = theme.confdir .. "/cross.png"
 -- }}}
 
 -- {{{ Layout
