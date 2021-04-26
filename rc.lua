@@ -634,7 +634,7 @@ awful.spawn.with_shell("sleep 0.1s && nm-applet")
 awful.spawn.with_shell("sleep 0.1s && xfce4-clipman")
 awful.spawn.with_shell("sleep 0.1s && flameshot")
 awful.spawn.with_shell("sleep 0.1s && pamac-tray")
-awful.spawn.with_shell("sleep 0.1s && redshift-gtk")
+-- awful.spawn.with_shell("sleep 0.1s && redshift-gtk")
 
 client.connect_signal("focus", function(c) c.border_color = "#ad8109" end)
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
