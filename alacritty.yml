@@ -15,7 +15,7 @@ scrolling:
   history: 50000
 
   # Scrolling distance multiplier.
-  multiplier: 7
+  multiplier: 1
 
 # Font configuration
 font:
