@@ -18,7 +18,7 @@ alias v="kak"
 alias vi="kak"
 alias vim="kak"
 alias gr="go run"
-alias yay="paru --sudo doas"
+alias paru="paru --sudo doas"
 
 bind \ed __fish_prepend_doas
 
