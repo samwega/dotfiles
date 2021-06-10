@@ -14,7 +14,7 @@
 	"gn_overlay_scroll_bars": true,
 	"gn_sidebar_box": true,
 	"gn_title_bar": true,
-	"gnc_001": false,
+	/*"gnc_001": false,*/
 	"gnwidgo": true,
 	"gnwidgx": true,
 	"highlight_line": true,
@@ -29,5 +29,5 @@
 	"theme": "Guna.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": true,
-	"word_wrap": true
+	"word_wrap": true,
 }
