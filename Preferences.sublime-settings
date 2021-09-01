@@ -20,7 +20,7 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
 	"overlay_scroll_bars": "enabled",
 	"scroll_speed": 2.0,
@@ -30,4 +30,7 @@
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": true,
 	"word_wrap": true,
+	/*"gnc_001": false,*/
+	/*"gnc_002": true,*/
+	/*"gni_003": false,*/
 }

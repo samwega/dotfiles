@@ -8,7 +8,7 @@ local dpi = require("beautiful.xresources").apply_dpi
 -- {{{ Main
 local theme = {}
 theme.confdir = os.getenv("HOME") .. "/.config/awesome/themes/legio"
-theme.wallpaper = theme.confdir .. "/JesusMosesElijah.jpg"
+theme.wallpaper = theme.confdir .. "/Shiva.jpg"
 -- }}}
 
 -- {{{ Styles

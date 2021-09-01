@@ -21,6 +21,7 @@ SETUVAR _fish_abbr_ipy:ipython
 SETUVAR _fish_abbr_k:kak
 SETUVAR _fish_abbr_l:lsd\x20\x2dhA\x20\x2d\x2dgroup\x2ddirs\x20first
 SETUVAR _fish_abbr_ls:lsd\x20\x2dAl\x20\x2d\x2dgroup\x2ddirs\x20first
+SETUVAR _fish_abbr_mount:udisksctl\x20loop\x2dsetup\x20\x2dr\x20\x2df
 SETUVAR _fish_abbr_n:cd\x20\x7e/Repos/samwega/notes
 SETUVAR _fish_abbr_news:newsboat\x20\x2dr
 SETUVAR _fish_abbr_p:cd\x20\x7e/Projects/Python
