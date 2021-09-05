@@ -630,7 +630,7 @@ end)
 
 awful.spawn.with_shell("pkill redshift && pkill xfce4-clipman")
 awful.spawn.with_shell("sleep 0.1s && picom --experimental-backends")
--- awful.spawn.with_shell("sleep 0.1s && xss-lock i3lock")
+awful.spawn.with_shell("sleep 0.1s && xss-lock i3lock")
 awful.spawn.with_shell("sleep 0.1s && nm-applet")
 awful.spawn.with_shell("sleep 0.1s && xfce4-clipman")
 awful.spawn.with_shell("sleep 0.1s && flameshot")
