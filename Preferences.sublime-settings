@@ -10,13 +10,13 @@
 	"draw_minimap_border": true,
 	"fade_fold_buttons": false,
 	"font_size": 16,
-	"gn_hide_tab_dropdown": true,
-	"gn_overlay_scroll_bars": true,
-	"gn_sidebar_box": true,
-	"gn_title_bar": true,
+	/*"gn_hide_tab_dropdown": true,*/
+	/*"gn_overlay_scroll_bars": true,*/
+	/*"gn_sidebar_box": true,*/
+	/*"gn_title_bar": true,*/
 	/*"gnc_001": false,*/
-	"gnwidgo": true,
-	"gnwidgx": true,
+	/*"gnwidgo": true,*/
+	/*"gnwidgx": true,*/
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -33,4 +33,10 @@
 	/*"gnc_001": false,*/
 	/*"gnc_002": true,*/
 	/*"gni_003": false,*/
+	"gn_hide_tab_dropdown": true,
+	"gn_overlay_scroll_bars": true,
+	"gn_sidebar_box": true,
+	"gn_title_bar": true,
+	"gnwidgo": true,
+	"gnwidgx": true,
 }
