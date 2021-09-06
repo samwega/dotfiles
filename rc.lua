@@ -256,7 +256,7 @@ awful.screen.connect_for_each_screen(function(s)
         s.mytasklist, -- Middle widget
         { -- Right widgets
             layout = wibox.layout.fixed.horizontal,
-            -- mykeyboardlayout,
+            mykeyboardlayout,
             wibox.widget.systray(),
             volume_widget({display_notification = true}),
             mytextclock,
@@ -630,7 +630,8 @@ end)
 
 awful.spawn.with_shell("pkill redshift && pkill xfce4-clipman")
 awful.spawn.with_shell("sleep 0.1s && picom --experimental-backends")
-awful.spawn.with_shell("sleep 0.1s && xss-lock i3lock")
+awful.spawn.with_shell("sleep 0.1s && i3lock")
+-- awful.spawn.with_shell("sleep 0.1s xss-lock")
 awful.spawn.with_shell("sleep 0.1s && nm-applet")
 awful.spawn.with_shell("sleep 0.1s && xfce4-clipman")
 awful.spawn.with_shell("sleep 0.1s && flameshot")
