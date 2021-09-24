@@ -48,7 +48,7 @@
         "hintShadow": false,
         "hintTextColor": "#e4c83f",
         "hintUseCustomCSS": true,
-        "hintUseTargetSize": false,
+        "hintUseTargetSize": true,
         "hintVerticalPadding": 0.15,
         "hintVerticalPlacement": "center",
         "hintVerticalTranslation": 0
@@ -120,6 +120,18 @@
             }
           ]
         ],
+        "duplicateTabIncognito": [
+          [
+            {
+              "altKey": false,
+              "code": "KeyI",
+              "ctrlKey": false,
+              "key": "i",
+              "metaKey": false,
+              "shiftKey": false
+            }
+          ]
+        ],
         "exitPassMode": [
           [
             {
@@ -169,7 +181,18 @@
         "moveTabNewWindow": [],
         "moveTabRight": [],
         "newIncognitoWindow": [],
-        "newTab": [],
+        "newTab": [
+          [
+            {
+              "altKey": false,
+              "code": "KeyT",
+              "ctrlKey": false,
+              "key": "t",
+              "metaKey": false,
+              "shiftKey": false
+            }
+          ]
+        ],
         "newWindow": [],
         "nextPage": [
           [
@@ -243,8 +266,30 @@
         ],
         "previousTab": [],
         "refreshAllTabs": [],
-        "refreshTab": [],
-        "restoreTab": [],
+        "refreshTab": [
+          [
+            {
+              "altKey": false,
+              "code": "KeyR",
+              "ctrlKey": false,
+              "key": "r",
+              "metaKey": false,
+              "shiftKey": false
+            }
+          ]
+        ],
+        "restoreTab": [
+          [
+            {
+              "altKey": false,
+              "code": "KeyZ",
+              "ctrlKey": false,
+              "key": "z",
+              "metaKey": false,
+              "shiftKey": false
+            }
+          ]
+        ],
         "scrollDown": [
           [
             {
@@ -368,9 +413,42 @@
           ]
         ],
         "toggleSaka": [],
-        "zoomIn": [],
-        "zoomOut": [],
-        "zoomReset": []
+        "zoomIn": [
+          [
+            {
+              "altKey": false,
+              "code": "Equal",
+              "ctrlKey": false,
+              "key": "+",
+              "metaKey": false,
+              "shiftKey": true
+            }
+          ]
+        ],
+        "zoomOut": [
+          [
+            {
+              "altKey": false,
+              "code": "Minus",
+              "ctrlKey": false,
+              "key": "_",
+              "metaKey": false,
+              "shiftKey": true
+            }
+          ]
+        ],
+        "zoomReset": [
+          [
+            {
+              "altKey": false,
+              "code": "Digit0",
+              "ctrlKey": false,
+              "key": "0",
+              "metaKey": false,
+              "shiftKey": false
+            }
+          ]
+        ]
       }
     }
   }
